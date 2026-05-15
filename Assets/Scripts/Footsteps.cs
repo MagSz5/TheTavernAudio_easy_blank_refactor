@@ -76,7 +76,7 @@ public class Footsteps : MonoBehaviour
     private void PlayFootsteps()
     {
         RaycastHit hit;
-        if (Physics.Raycast(transform.position, Vector3.down, out hit, distToGround + 0.5f))
+        if (Physics.Raycast(transform.position, Vector3.down, out hit, distToGround + 0.5f)) //to + xf jest ważne, bo inaczej ray będzie się zatrzymywał na podłodze i nigdy nie wejdzie z nią w kolizję i będzie wywalać błąd albo nie będzie działać dźwięk
         {
             string surfaceTag = hit.collider.tag;
             PlaySurfaceSound(footstepsSoundInstance, footstepsEvent, surfaceTag);
