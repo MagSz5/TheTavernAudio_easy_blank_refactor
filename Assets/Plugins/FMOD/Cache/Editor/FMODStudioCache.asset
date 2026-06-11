@@ -73,6 +73,33 @@ MonoBehaviour:
   - Wood
   - Stone
   Exists: 1
+--- !u!114 &-7507385043157569447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Outside Snapshot
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: snapshot:/Outside Snapshot
+  Guid:
+    Data1: 60234150
+    Data2: 1333434068
+    Data3: -523990388
+    Data4: -2081937661
+  Banks:
+  - {fileID: 1641370232434161630}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-6615641811102299499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,13 +202,14 @@ MonoBehaviour:
   - {fileID: 7319937280659958506}
   - {fileID: 6845306779958136652}
   - {fileID: 5025805547778571540}
+  - {fileID: -7507385043157569447}
   EditorParameters: []
   MasterBanks:
   - {fileID: 1641370232434161630}
   StringsBanks:
   - {fileID: 2564011243337346382}
   cacheVersion: 131859
-  cacheTime: 639144522580945202
+  cacheTime: 639167771411968958
   SerializableEventsDict:
   - key: event:/Ambience/Tavern/Amb_tavern_music
     index: 0
@@ -193,6 +221,8 @@ MonoBehaviour:
     index: 3
   - key: event:/Ambience/Forest/Amb_forest
     index: 4
+  - key: snapshot:/Outside Snapshot
+    index: 5
 --- !u!114 &332968877646663886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -262,10 +292,10 @@ MonoBehaviour:
   Path: Fmod_and_audio_files/21.04/tavern/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639144522580931000
+  lastModified: 639167771411953916
   FileSizes:
   - Name: Desktop
-    Value: 9127744
+    Value: 9128960
   Exists: 1
 --- !u!114 &2036843842807985011
 MonoBehaviour:
@@ -302,10 +332,10 @@ MonoBehaviour:
   Path: Fmod_and_audio_files/21.04/tavern/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639144522580945202
+  lastModified: 639167771411968958
   FileSizes:
   - Name: Desktop
-    Value: 1066
+    Value: 1238
   Exists: 1
 --- !u!114 &5025805547778571540
 MonoBehaviour:
