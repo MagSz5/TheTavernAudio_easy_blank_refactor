@@ -153,6 +153,9 @@
 		<property name="pitch">
 			<value>11.5</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{ae837f94-6503-47bf-b76c-5d7d8f4d49f9}</destination>
 			<destination>{dc99dc2a-823a-47ce-9e29-f76b3cb3c6e7}</destination>

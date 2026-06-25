@@ -1,12 +1,11 @@
-<REAPER_PROJECT 0.1 "7.69/win64" 1781575780 0
+<REAPER_PROJECT 0.1 "6.81/win64" 1776768189
   <NOTES 0 2
   >
-  RIPPLE 0 0
-  GROUPOVERRIDE 0 0 0 0
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
   AUTOXFADE 129
   ENVATTACH 3
   POOLEDENVATTACH 0
-  TCPUIFLAGS 0
   MIXERUIFLAGS 11 48
   PEAKGAIN 1
   FEEDBACK 0
@@ -14,12 +13,12 @@
   PROJOFFS 0 0 0
   MAXPROJLEN 0 0
   GRID 3199 8 1 8 1 0 0 0
-  TIMEMODE 1 5 -1 30 0 0 -1 0
+  TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
   CURSOR 2.5
-  ZOOM 110.96997788092942 0 0
-  VZOOMEX 6 670
+  ZOOM 383.16914614100017 0 0
+  VZOOMEX 6 560
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -39,7 +38,6 @@
   RENDER_ADDTOPROJ 0
   RENDER_STEMS 512
   RENDER_DITHER 0
-  RENDER_TRIM 0.000001 0.000001 0 0
   TIMELOCKMODE 1
   TEMPOENVLOCKMODE 1
   ITEMMIX 1
@@ -52,26 +50,22 @@
   LOCK 1
   <METRONOME 6 2
     VOL 0.25 0.125
-    BEATLEN 4
     FREQ 800 1600 1
-    SAMPLES "" "" "" ""
-    SPLIGNORE 0 0
-    SPLDEF 2 660 "" 0 ""
-    SPLDEF 3 440 "" 0 ""
-    PATTERN 0 169
-    PATTERNSTR ABBB
+    BEATLEN 4
+    SAMPLES "" ""
+    PATTERN 2863311530 2863311529
     MULT 1
   >
   GLOBAL_AUTO -1
-  TEMPO 120 4 4 0
+  TEMPO 120 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 6.5 0.5
-  SELECTION2 6.5 0.5
+  SELECTION 1 0.5
+  SELECTION2 1 0.5
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
   MASTERMUTESOLO 0
-  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0
   MASTERHWOUT 0 0 1 0 0 0 0 -1
   MASTER_NCH 2 2
   MASTER_VOLUME 1 0 -1 -1 1
@@ -94,9 +88,6 @@
     ARM 0
     DEFSHAPE 1 -1 -1
   >
-  RULERHEIGHT 86 86
-  RULERLANE 1 4 "" 0 -1
-  RULERLANE 2 8 "" 0 -1
   <PROJBAY
   >
   <TRACK {021AED71-586B-44C7-B101-84BEC2E00D85}
@@ -110,12 +101,11 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 159 0 0 0 0 0 0
+    TRACKHEIGHT 159 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -179,12 +169,11 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 161 0 0 0 0 0 0
+    TRACKHEIGHT 161 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -248,12 +237,11 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 161 0 0 0 0 0 0
+    TRACKHEIGHT 161 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -317,12 +305,11 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 172 0 0 0 0 0 0
+    TRACKHEIGHT 172 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -386,12 +373,11 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 207 0 0 0 0 0 0
+    TRACKHEIGHT 207 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -641,12 +627,11 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
-    LANEREC -1 -1 -1 0
-    SEL 1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -673,7 +658,7 @@
       CHANMODE 0
       GUID {76EA6084-3E6D-4FD5-8A23-B62DCAA1B1AB}
       <SOURCE WAVE
-        FILE "834027__ienba__footsteps-on-tile.wav"
+        FILE "C:\Users\mszyma28\Downloads\834027__ienba__footsteps-on-tile.wav"
       >
     >
     <ITEM
@@ -695,7 +680,7 @@
       CHANMODE 0
       GUID {93344B85-14D1-474B-B657-0A0E1B7CF89A}
       <SOURCE WAVE
-        FILE "834027__ienba__footsteps-on-tile.wav"
+        FILE "C:\Users\mszyma28\Downloads\834027__ienba__footsteps-on-tile.wav"
       >
     >
   >
@@ -710,12 +695,11 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -742,7 +726,7 @@
       CHANMODE 0
       GUID {4DD31DF1-887D-43CD-971E-B71E071C8710}
       <SOURCE WAVE
-        FILE "148796__splicesound__footsteps-solid-wood-female-socks-jumping.wav"
+        FILE "C:\Users\mszyma28\Downloads\148796__splicesound__footsteps-solid-wood-female-socks-jumping.wav"
       >
     >
     <ITEM
@@ -764,7 +748,7 @@
       CHANMODE 0
       GUID {7328AAF5-A5A0-4A0A-AFC3-DCB692D700C3}
       <SOURCE WAVE
-        FILE "148796__splicesound__footsteps-solid-wood-female-socks-jumping.wav"
+        FILE "C:\Users\mszyma28\Downloads\148796__splicesound__footsteps-solid-wood-female-socks-jumping.wav"
       >
     >
     <ITEM
@@ -786,7 +770,7 @@
       CHANMODE 0
       GUID {10F41AD2-5A45-40AA-B710-B97C2F6302A1}
       <SOURCE WAVE
-        FILE "148796__splicesound__footsteps-solid-wood-female-socks-jumping.wav"
+        FILE "C:\Users\mszyma28\Downloads\148796__splicesound__footsteps-solid-wood-female-socks-jumping.wav"
       >
     >
     <ITEM
@@ -808,7 +792,7 @@
       CHANMODE 0
       GUID {350811D4-3204-42ED-B1B5-D48C12C7F6A5}
       <SOURCE WAVE
-        FILE "148796__splicesound__footsteps-solid-wood-female-socks-jumping.wav"
+        FILE "C:\Users\mszyma28\Downloads\148796__splicesound__footsteps-solid-wood-female-socks-jumping.wav"
       >
     >
     <ITEM
@@ -830,7 +814,7 @@
       CHANMODE 0
       GUID {1FC5D7DE-A31F-4C52-90FE-64E9D1F363F3}
       <SOURCE WAVE
-        FILE "148796__splicesound__footsteps-solid-wood-female-socks-jumping.wav"
+        FILE "C:\Users\mszyma28\Downloads\148796__splicesound__footsteps-solid-wood-female-socks-jumping.wav"
       >
     >
     <ITEM
@@ -852,7 +836,7 @@
       CHANMODE 0
       GUID {ED815AA4-C84D-4AAF-A9E9-E7170E23AAD9}
       <SOURCE WAVE
-        FILE "148796__splicesound__footsteps-solid-wood-female-socks-jumping.wav"
+        FILE "C:\Users\mszyma28\Downloads\148796__splicesound__footsteps-solid-wood-female-socks-jumping.wav"
       >
     >
     <ITEM
@@ -874,7 +858,7 @@
       CHANMODE 0
       GUID {DE7F380A-D808-4B6B-B0A4-F85BB7A11DD5}
       <SOURCE WAVE
-        FILE "148796__splicesound__footsteps-solid-wood-female-socks-jumping.wav"
+        FILE "C:\Users\mszyma28\Downloads\148796__splicesound__footsteps-solid-wood-female-socks-jumping.wav"
       >
     >
     <ITEM
@@ -896,7 +880,7 @@
       CHANMODE 0
       GUID {ABD4E641-C8D0-49FA-8521-7E4F3C1C65B3}
       <SOURCE WAVE
-        FILE "148796__splicesound__footsteps-solid-wood-female-socks-jumping.wav"
+        FILE "C:\Users\mszyma28\Downloads\148796__splicesound__footsteps-solid-wood-female-socks-jumping.wav"
       >
     >
     <ITEM
@@ -918,7 +902,7 @@
       CHANMODE 0
       GUID {D787D341-EF6F-4E92-AC46-CB93A2AB7850}
       <SOURCE WAVE
-        FILE "148796__splicesound__footsteps-solid-wood-female-socks-jumping.wav"
+        FILE "C:\Users\mszyma28\Downloads\148796__splicesound__footsteps-solid-wood-female-socks-jumping.wav"
       >
     >
     <ITEM
@@ -940,7 +924,7 @@
       CHANMODE 0
       GUID {2617BF1C-0DD4-467E-970F-1E681D6BA5A6}
       <SOURCE WAVE
-        FILE "148796__splicesound__footsteps-solid-wood-female-socks-jumping.wav"
+        FILE "C:\Users\mszyma28\Downloads\148796__splicesound__footsteps-solid-wood-female-socks-jumping.wav"
       >
     >
     <ITEM
@@ -962,7 +946,7 @@
       CHANMODE 0
       GUID {C70A80DD-BFCF-480A-AC86-CF7693F1DC3E}
       <SOURCE WAVE
-        FILE "148796__splicesound__footsteps-solid-wood-female-socks-jumping.wav"
+        FILE "C:\Users\mszyma28\Downloads\148796__splicesound__footsteps-solid-wood-female-socks-jumping.wav"
       >
     >
     <ITEM
@@ -984,7 +968,7 @@
       CHANMODE 0
       GUID {8E7F1E35-8F4A-4B73-B316-FD25FC16AED4}
       <SOURCE WAVE
-        FILE "148796__splicesound__footsteps-solid-wood-female-socks-jumping.wav"
+        FILE "C:\Users\mszyma28\Downloads\148796__splicesound__footsteps-solid-wood-female-socks-jumping.wav"
       >
     >
   >
@@ -999,12 +983,11 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -1024,12 +1007,11 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
-    LANEREC -1 -1 -1 0
-    SEL 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -1049,12 +1031,11 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
-    LANEREC -1 -1 -1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
