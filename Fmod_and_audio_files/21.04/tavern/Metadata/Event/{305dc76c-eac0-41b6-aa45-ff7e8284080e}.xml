@@ -126,6 +126,9 @@
 		<property name="length">
 			<value>0.53554166666666669</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="triggerConditions">
 			<destination>{9bbeed2b-5776-4dde-8db0-d924f1d10a3d}</destination>
 		</relationship>

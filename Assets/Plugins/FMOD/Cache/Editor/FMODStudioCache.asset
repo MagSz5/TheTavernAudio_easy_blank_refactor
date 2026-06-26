@@ -27,6 +27,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 145000
+--- !u!114 &-8428002342436279657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player_Jump/StepsParameter
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: StepsParameter
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 2061663216
+    data2: 914990005
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Wood
+  - Stone
+  - Stairs
+  - Chandelier
+  Exists: 1
 --- !u!114 &-8139970316772629942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206,10 +234,11 @@ MonoBehaviour:
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: -8428002342436279657}
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 472
 --- !u!114 &-3582495324274399804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -260,8 +289,6 @@ MonoBehaviour:
   - {fileID: -7507385043157569447}
   - {fileID: 7444281885242552877}
   - {fileID: -5620955061037143857}
-  - {fileID: 3534573710394028901}
-  - {fileID: 2994072603682633896}
   - {fileID: -5007370671931818175}
   - {fileID: -6051476825816914444}
   - {fileID: 2733399626871888028}
@@ -271,7 +298,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 2564011243337346382}
   cacheVersion: 131859
-  cacheTime: 639180544018591029
+  cacheTime: 639180667570844327
   SerializableEventsDict:
   - key: event:/Ambience/Tavern/Amb_tavern_music
     index: 0
@@ -287,16 +314,12 @@ MonoBehaviour:
     index: 5
   - key: event:/Mice
     index: 6
-  - key: event:/Doors/Doors_Close
-    index: 7
-  - key: event:/Doors/Doors_Open
-    index: 8
   - key: event:/Player/Player_Jump
-    index: 9
+    index: 7
   - key: event:/Player/Player_Steps_Run
-    index: 10
+    index: 8
   - key: event:/Player/Player_Land
-    index: 11
+    index: 9
 --- !u!114 &148288077372900553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -394,10 +417,10 @@ MonoBehaviour:
   Path: Fmod_and_audio_files/21.04/tavern/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639180544018564353
+  lastModified: 639180667570834333
   FileSizes:
   - Name: Desktop
-    Value: 9357728
+    Value: 9530400
   Exists: 1
 --- !u!114 &2036843842807985011
 MonoBehaviour:
@@ -434,10 +457,38 @@ MonoBehaviour:
   Path: Fmod_and_audio_files/21.04/tavern/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639180544018591029
+  lastModified: 639180667570844327
   FileSizes:
   - Name: Desktop
-    Value: 1728
+    Value: 1632
+  Exists: 1
+--- !u!114 &2716211682684658028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player_Land/StepsParameter
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: StepsParameter
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 2061663216
+    data2: 914990005
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Wood
+  - Stone
+  - Stairs
+  - Chandelier
   Exists: 1
 --- !u!114 &2733399626871888028
 MonoBehaviour:
@@ -462,64 +513,11 @@ MonoBehaviour:
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 2716211682684658028}
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
---- !u!114 &2994072603682633896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Doors/Doors_Open
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/Doors/Doors_Open
-  Guid:
-    Data1: -871664048
-    Data2: 1295104915
-    Data3: 364892077
-    Data4: 2067351770
-  Banks:
-  - {fileID: 1641370232434161630}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &3534573710394028901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Doors/Doors_Close
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/Doors/Doors_Close
-  Guid:
-    Data1: 455150145
-    Data2: 1086966163
-    Data3: -734138194
-    Data4: -897414050
-  Banks:
-  - {fileID: 1641370232434161630}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
+  Length: 832
 --- !u!114 &5025805547778571540
 MonoBehaviour:
   m_ObjectHideFlags: 0
