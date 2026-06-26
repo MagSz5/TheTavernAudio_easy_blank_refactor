@@ -10,11 +10,13 @@ public class Footsteps : MonoBehaviour
     private FMOD.Studio.EventInstance footstepsSoundInstance;
     private FMOD.Studio.EventInstance jumpSoundInstance;
     private FMOD.Studio.EventInstance landSoundInstance;
+    private FMOD.Studio.EventInstance runSoundInstance;
 
     // Publiczne referencje do zdarzeń FMOD.
     public EventReference footstepsEvent;
     public EventReference jumpEvent;
     public EventReference landEvent;
+    public EventReference runEvent;
 
     // Usunięto: private Dictionary<string, string> surfaceTags;
 
@@ -79,7 +81,9 @@ public class Footsteps : MonoBehaviour
         if (Physics.Raycast(transform.position, Vector3.down, out hit, distToGround + 0.5f)) //to + xf jest ważne, bo inaczej ray będzie się zatrzymywał na podłodze i nigdy nie wejdzie z nią w kolizję i będzie wywalać błąd albo nie będzie działać dźwięk
         {
             string surfaceTag = hit.collider.tag;
-            PlaySurfaceSound(footstepsSoundInstance, footstepsEvent, surfaceTag);
+            bool isRunning = Input.GetKey(KeyCode.LeftShift);
+            EventReference activeEvent = isRunning ? runEvent : footstepsEvent;
+            PlaySurfaceSound(footstepsSoundInstance, activeEvent, surfaceTag);
         }
     }
 

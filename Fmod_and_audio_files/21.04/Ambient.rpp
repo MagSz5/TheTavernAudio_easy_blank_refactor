@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.69/win64" 1782444625 0
+<REAPER_PROJECT 0.1 "7.69/win64" 1782451060 0
   <NOTES 0 2
   >
   RIPPLE 0 0
@@ -17,9 +17,9 @@
   TIMEMODE 1 5 -1 30 0 0 -1 0
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 2.5
-  ZOOM 439.03593879179431 0 0
-  VZOOMEX 3.1833334 150
+  CURSOR 0
+  ZOOM 983.17232385051352 0 0
+  VZOOMEX 5.35707474 1307
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -31,7 +31,7 @@
   >
   <APPLYFX_CFG
   >
-  RENDER_FILE "C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Audio\SFX\Player\Steps\Stairs\Run\player_steps_stairs_run6.flac"
+  RENDER_FILE "C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Audio\SFX\Sound_Effects\Door\DoorClose\SFX_Door_Close.flac"
   RENDER_FMT 0 2 48000
   RENDER_1X 0
   RENDER_RANGE 2 0 0 18 1000
@@ -65,8 +65,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4 0
   PLAYRATE 1 0 0.25 4
-  SELECTION 1.759375 2.10233358694974
-  SELECTION2 1.759375 2.10233358694974
+  SELECTION 0 0.58886621315193
+  SELECTION2 0 0.58886621315193
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -1110,106 +1110,6 @@
       LASTSEL 0
       DOCKED 0
     >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 0.42348839355268
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.0391563202338 0 1 0 0 0
-      FADEOUT 1 0.05271043108397 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {6D4990C5-20E6-43E2-91F5-A2ABF83F1A77}
-      IID 134
-      NAME freesound_community-metal-chain-01-64045.mp3
-      VOLPAN 1 0 1 -1
-      SOFFS 4.13774464843995
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {85B59B25-5CBA-47A2-BECD-4315F8276E19}
-      <SOURCE MP3
-        FILE "freesound_community-metal-chain-01-64045.mp3" 1
-      >
-      <EXT
-        ORIGINAL_FILENAME "C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Raw Audio Reaper\ChandelierMisc\freesound_community-metal-chain-01-64045.mp3"
-      >
-    >
-    <ITEM
-      POSITION 1
-      SNAPOFFS 0
-      LENGTH 0.58102333593002
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {FB5F1056-164A-448C-A52E-2C1090764CE4}
-      IID 134
-      NAME freesound_community-metal-chain-01-64045.mp3
-      VOLPAN 1 0 1 -1
-      SOFFS 35.77242183019155
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {15F0E54E-249C-4A8A-B8E9-986A129BB7B7}
-      <SOURCE MP3
-        FILE "freesound_community-metal-chain-01-64045.mp3" 1
-      >
-      <EXT
-        ORIGINAL_FILENAME "C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Raw Audio Reaper\ChandelierMisc\freesound_community-metal-chain-01-64045.mp3"
-      >
-    >
-    <ITEM
-      POSITION 2.5
-      SNAPOFFS 0
-      LENGTH 0.71129530079649
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.1521697658902 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {88C3AA4C-AE10-4AD2-AB83-52F507D4773E}
-      IID 134
-      NAME freesound_community-metal-chain-01-64045.mp3
-      VOLPAN 1 0 1 -1
-      SOFFS 5.36007885709705
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {A80D941D-9944-45A6-9392-423555F5AAC0}
-      <SOURCE MP3
-        FILE "freesound_community-metal-chain-01-64045.mp3" 1
-      >
-      <EXT
-        ORIGINAL_FILENAME "C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Raw Audio Reaper\ChandelierMisc\freesound_community-metal-chain-01-64045.mp3"
-      >
-    >
-    <ITEM
-      POSITION 4
-      SNAPOFFS 0
-      LENGTH 0.5
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {B6D2AA39-670B-4914-81D2-D7F2A0D4B11C}
-      IID 134
-      NAME freesound_community-metal-chain-01-64045.mp3
-      VOLPAN 1 0 1 -1
-      SOFFS 6.07137415789354
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {71EA3A67-E292-4F47-A194-ECB5DB706BA9}
-      <SOURCE MP3
-        FILE "freesound_community-metal-chain-01-64045.mp3" 1
-      >
-      <EXT
-        ORIGINAL_FILENAME "C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Raw Audio Reaper\ChandelierMisc\freesound_community-metal-chain-01-64045.mp3"
-      >
-    >
   >
   <TRACK {36EEF4CD-D652-49CE-AE29-C2E88D03B132}
     NAME "Chandelier Walk"
@@ -1245,151 +1145,151 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 0.44820833333333
+      LENGTH 0.48663301381653
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {62E0C23D-C9B1-4EDC-ADB2-A72AEC61BA0C}
-      IID 217
-      NAME player_steps_wood_1.flac
+      IGUID {6966C20C-C24B-4754-B285-C3E130A96A97}
+      IID 392
+      NAME "Sneaker Fast Walk Solid Wood - Free Sound Effects.mp3"
       VOLPAN 1 0 1 -1
-      SOFFS 0
+      SOFFS 5.08253998838109
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {B18FAD39-BC35-4515-B427-8D7E3DA9F01A}
-      <SOURCE FLAC
-        FILE "player_steps_wood_1.flac"
+      GUID {AA5C4AAA-E026-4FA1-AAD9-5232EFF072A3}
+      <SOURCE MP3
+        FILE "Sneaker Fast Walk Solid Wood - Free Sound Effects.mp3" 1
       >
       <EXT
-        ORIGINAL_FILENAME C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Audio\SFX\Player\Steps\Wood\player_steps_wood_1.flac
+        ORIGINAL_FILENAME "C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Raw Audio Reaper\Footsteps\Wood\WoodWalk\Sneaker Fast Walk Solid Wood - Free Sound Effects.mp3"
       >
     >
     <ITEM
       POSITION 1
       SNAPOFFS 0
-      LENGTH 0.4409375
+      LENGTH 0.53553936030243
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {683E63CF-3695-4026-8FEC-995042410C6E}
-      IID 218
-      NAME player_steps_wood_2.flac
+      IGUID {B28AADB6-ECFD-4935-B0CA-599C5C8FAFF0}
+      IID 393
+      NAME "Sneaker Fast Walk Solid Wood - Free Sound Effects.mp3"
       VOLPAN 1 0 1 -1
-      SOFFS 0
+      SOFFS 2.1002538130877
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {20603670-DD53-4264-8206-D7F85B4F939B}
-      <SOURCE FLAC
-        FILE "player_steps_wood_2.flac"
+      GUID {BACAF7F5-3439-4194-9F33-00908D69D208}
+      <SOURCE MP3
+        FILE "Sneaker Fast Walk Solid Wood - Free Sound Effects.mp3" 1
       >
       <EXT
-        ORIGINAL_FILENAME C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Audio\SFX\Player\Steps\Wood\player_steps_wood_2.flac
+        ORIGINAL_FILENAME "C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Raw Audio Reaper\Footsteps\Wood\WoodWalk\Sneaker Fast Walk Solid Wood - Free Sound Effects.mp3"
       >
     >
     <ITEM
-      POSITION 2.5
+      POSITION 2
       SNAPOFFS 0
-      LENGTH 0.39027083333333
+      LENGTH 0.50677864020148
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {29031420-F8A2-4FF5-961E-3A75C9C5D3AB}
-      IID 219
-      NAME player_steps_wood_3.flac
+      IGUID {8CDD3626-1AAE-4306-ADAE-8443C5E69371}
+      IID 394
+      NAME "Sneaker Fast Walk Solid Wood - Free Sound Effects.mp3"
       VOLPAN 1 0 1 -1
-      SOFFS 0
+      SOFFS 2.63579317339012
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {9DF3FCD3-CD60-4743-AB2A-E16827A10609}
-      <SOURCE FLAC
-        FILE "player_steps_wood_3.flac"
+      GUID {BC0EC7C9-82F8-454A-9579-50E94D8EA09F}
+      <SOURCE MP3
+        FILE "Sneaker Fast Walk Solid Wood - Free Sound Effects.mp3" 1
       >
       <EXT
-        ORIGINAL_FILENAME C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Audio\SFX\Player\Steps\Wood\player_steps_wood_3.flac
+        ORIGINAL_FILENAME "C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Raw Audio Reaper\Footsteps\Wood\WoodWalk\Sneaker Fast Walk Solid Wood - Free Sound Effects.mp3"
+      >
+    >
+    <ITEM
+      POSITION 3
+      SNAPOFFS 0
+      LENGTH 0.47508333063225
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5191CC2A-FDE6-45D2-8B9A-A942D46CF20F}
+      IID 395
+      NAME "Sneaker Fast Walk Solid Wood - Free Sound Effects.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 3.09379278145358
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FF9D14CA-A1A3-4755-9E4D-B2702EBB50AC}
+      <SOURCE MP3
+        FILE "Sneaker Fast Walk Solid Wood - Free Sound Effects.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Raw Audio Reaper\Footsteps\Wood\WoodWalk\Sneaker Fast Walk Solid Wood - Free Sound Effects.mp3"
       >
     >
     <ITEM
       POSITION 4
       SNAPOFFS 0
-      LENGTH 0.4494375
+      LENGTH 0.48606739557345
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {39496701-DEDE-4517-9DCD-6125244B7C75}
-      IID 220
-      NAME player_steps_wood_4.flac
+      IGUID {E2775997-8EAC-4457-B7DD-A9C8D7400F9A}
+      IID 396
+      NAME "Sneaker Fast Walk Solid Wood - Free Sound Effects.mp3"
       VOLPAN 1 0 1 -1
-      SOFFS 0
+      SOFFS 3.60892087745539
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {C2E12815-AB8D-42E0-B1E2-9BED0CA7A5B5}
-      <SOURCE FLAC
-        FILE "player_steps_wood_4.flac"
+      GUID {38A238E6-5196-48BD-8413-17A24EBFDD81}
+      <SOURCE MP3
+        FILE "Sneaker Fast Walk Solid Wood - Free Sound Effects.mp3" 1
       >
       <EXT
-        ORIGINAL_FILENAME C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Audio\SFX\Player\Steps\Wood\player_steps_wood_4.flac
+        ORIGINAL_FILENAME "C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Raw Audio Reaper\Footsteps\Wood\WoodWalk\Sneaker Fast Walk Solid Wood - Free Sound Effects.mp3"
       >
     >
     <ITEM
-      POSITION 6
+      POSITION 5
       SNAPOFFS 0
-      LENGTH 0.4599375
+      LENGTH 0.47529975487303
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {2FACDC87-1BA3-41B3-B4C1-365792B70B7E}
-      IID 221
-      NAME player_steps_wood_5.flac
+      IGUID {D1C646DA-BBF8-4885-96E9-F8D1A12C4751}
+      IID 397
+      NAME "Sneaker Fast Walk Solid Wood - Free Sound Effects.mp3"
       VOLPAN 1 0 1 -1
-      SOFFS 0
+      SOFFS 4.60724023350806
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {B65A9E67-976D-4256-B98F-9C48C74F58FF}
-      <SOURCE FLAC
-        FILE "player_steps_wood_5.flac"
+      GUID {0778B81C-9A53-4F0F-BBAA-35731525E6FD}
+      <SOURCE MP3
+        FILE "Sneaker Fast Walk Solid Wood - Free Sound Effects.mp3" 1
       >
       <EXT
-        ORIGINAL_FILENAME C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Audio\SFX\Player\Steps\Wood\player_steps_wood_5.flac
-      >
-    >
-    <ITEM
-      POSITION 6.4599374999525
-      SNAPOFFS 0
-      LENGTH 0.4265625
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {AEBEB53B-405A-4565-8621-64E97F32B389}
-      IID 222
-      NAME player_steps_wood_6.flac
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {2E06EC38-8B82-441B-BCAA-373D276B4C94}
-      <SOURCE FLAC
-        FILE "player_steps_wood_6.flac"
-      >
-      <EXT
-        ORIGINAL_FILENAME C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Audio\SFX\Player\Steps\Wood\player_steps_wood_6.flac
+        ORIGINAL_FILENAME "C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Raw Audio Reaper\Footsteps\Wood\WoodWalk\Sneaker Fast Walk Solid Wood - Free Sound Effects.mp3"
       >
     >
   >
@@ -1600,7 +1500,7 @@
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
     LANEREC -1 -1 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -1784,7 +1684,7 @@
     AUTOMODE 0
     PANLAWFLAGS 3
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 2 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -2953,7 +2853,7 @@
     AUTOMODE 0
     PANLAWFLAGS 3
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 0 2 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -2975,51 +2875,23 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 0.3969329587337
+      LENGTH 0.58886621315193
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {1D3219EE-B1EB-4742-8721-CCF9D05E9C2E}
-      IID 135
-      NAME Drs_Wood_DoubleDoor_Close_01.WAV
+      IGUID {3D61D764-FCFB-4375-A1F5-8E2D1BA4FBEB}
+      IID 414
+      NAME Drs_Wood_DoubleDoor_Close_01-glued.wav
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {143BF432-4629-4555-9C34-9BE0D0F3F69F}
+      GUID {4F7EF661-DC4E-4CAB-A5E5-34A076F56246}
       <SOURCE WAVE
-        FILE "Drs_Wood_DoubleDoor_Close_01.WAV"
-      >
-      <EXT
-        ORIGINAL_FILENAME "C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Raw Audio Reaper\Doors\Close\Drs_Wood_DoubleDoor_Close_01.WAV"
-      >
-    >
-    <ITEM
-      POSITION 0.3969329587337
-      SNAPOFFS 0
-      LENGTH 0.19193325441823
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {83F71E7E-F25C-40CF-B1A1-1352E832BF27}
-      IID 135
-      NAME Drs_Wood_DoubleDoor_Close_01.WAV
-      VOLPAN 1 0 1 -1
-      SOFFS 0.3969329587337
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {53D918A6-601C-4159-AFE2-98B400D029E1}
-      <SOURCE WAVE
-        FILE "Drs_Wood_DoubleDoor_Close_01.WAV"
-      >
-      <EXT
-        ORIGINAL_FILENAME "C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Raw Audio Reaper\Doors\Close\Drs_Wood_DoubleDoor_Close_01.WAV"
+        FILE "Drs_Wood_DoubleDoor_Close_01-glued.wav"
       >
     >
   >
@@ -3049,23 +2921,23 @@
     MIDIOUT -1
     MAINSEND 1 0
     <ITEM
-      POSITION 0
+      POSITION 1
       SNAPOFFS 0
-      LENGTH 0.3969329587337
+      LENGTH 1.51585390533663
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
+      FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {2F42000E-1627-42DB-957B-3095C9E7F13F}
+      IGUID {9819D564-4BBF-4BB7-811D-58BDC32978C1}
       IID 130
       NAME freesound_community-mouse-squeaks-68287.mp3
       VOLPAN 1 0 1 -1
-      SOFFS 0
+      SOFFS 1.63245805190099
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {C1136D5D-1264-4783-B6C5-FB293889A9ED}
+      GUID {A3064E25-5E22-4408-A775-99DDC089C858}
       <SOURCE MP3
         FILE "freesound_community-mouse-squeaks-68287.mp3" 1
       >
@@ -3074,23 +2946,223 @@
       >
     >
     <ITEM
-      POSITION 0.3969329587337
+      POSITION 3.14831195723763
       SNAPOFFS 0
-      LENGTH 27.92502537459963
+      LENGTH 1.15115582991195
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {C35B7A09-6D29-4C58-AD8C-2318E1BB908C}
+      IGUID {D845C04F-2D15-468F-9389-0E789871F903}
       IID 130
       NAME freesound_community-mouse-squeaks-68287.mp3
       VOLPAN 1 0 1 -1
-      SOFFS 0.3969329587337
+      SOFFS 3.14831195723763
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {015B2D5D-D02A-42ED-BE90-FF456A9046C2}
+      GUID {C1A4EE80-823A-4E6A-8726-00C25362CCAC}
+      <SOURCE MP3
+        FILE "freesound_community-mouse-squeaks-68287.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Audio\SFX\Sound_Effects\freesound_community-mouse-squeaks-68287.mp3
+      >
+    >
+    <ITEM
+      POSITION 5
+      SNAPOFFS 0
+      LENGTH 2.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C455C9DE-0008-459A-9AB6-9AC49856AA43}
+      IID 130
+      NAME freesound_community-mouse-squeaks-68287.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 8
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1243F7B1-1A1F-4250-9FEC-150A8B1C1C95}
+      <SOURCE MP3
+        FILE "freesound_community-mouse-squeaks-68287.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Audio\SFX\Sound_Effects\freesound_community-mouse-squeaks-68287.mp3
+      >
+    >
+    <ITEM
+      POSITION 8
+      SNAPOFFS 0
+      LENGTH 1.31793000575027
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.34558498546337 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {638C8B78-69CB-44E3-B13C-EA6184670E1B}
+      IID 130
+      NAME freesound_community-mouse-squeaks-68287.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 12.5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {09B19544-B38E-4CA7-8D5D-EAD498C95105}
+      <SOURCE MP3
+        FILE "freesound_community-mouse-squeaks-68287.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Audio\SFX\Sound_Effects\freesound_community-mouse-squeaks-68287.mp3
+      >
+    >
+    <ITEM
+      POSITION 10
+      SNAPOFFS 0
+      LENGTH 1.91171019192446
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2D7E006D-4E17-47CB-A919-BEB9A5D2C7F1}
+      IID 130
+      NAME freesound_community-mouse-squeaks-68287.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 13.81793000575027
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {20931224-F249-4C5E-B330-67622BA5F222}
+      <SOURCE MP3
+        FILE "freesound_community-mouse-squeaks-68287.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Audio\SFX\Sound_Effects\freesound_community-mouse-squeaks-68287.mp3
+      >
+    >
+    <ITEM
+      POSITION 12.5
+      SNAPOFFS 0
+      LENGTH 2.25233093803542
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D5FF6E94-C68B-4D67-8D77-B474986D0F27}
+      IID 130
+      NAME freesound_community-mouse-squeaks-68287.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 16.5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E68E1F32-A4A7-40F3-B704-D844F9742C46}
+      <SOURCE MP3
+        FILE "freesound_community-mouse-squeaks-68287.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Audio\SFX\Sound_Effects\freesound_community-mouse-squeaks-68287.mp3
+      >
+    >
+    <ITEM
+      POSITION 15.5
+      SNAPOFFS 0
+      LENGTH 1.24766906196458
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F361DF81-0501-49C2-BFB3-D41704AE212D}
+      IID 130
+      NAME freesound_community-mouse-squeaks-68287.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 18.75233093803542
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1D37A716-9135-445F-B14E-0FDD99022A66}
+      <SOURCE MP3
+        FILE "freesound_community-mouse-squeaks-68287.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Audio\SFX\Sound_Effects\freesound_community-mouse-squeaks-68287.mp3
+      >
+    >
+    <ITEM
+      POSITION 17.5
+      SNAPOFFS 0
+      LENGTH 2.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {212BDA3D-9D82-46DB-A842-AA7F39EA5D1A}
+      IID 130
+      NAME freesound_community-mouse-squeaks-68287.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 20
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6694D232-8AE6-4E01-87D8-5D3024874D66}
+      <SOURCE MP3
+        FILE "freesound_community-mouse-squeaks-68287.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Audio\SFX\Sound_Effects\freesound_community-mouse-squeaks-68287.mp3
+      >
+    >
+    <ITEM
+      POSITION 21
+      SNAPOFFS 0
+      LENGTH 2.16024671420329
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.2483199834646 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8BF7DE2F-96B0-4702-B903-D04BB61E1898}
+      IID 130
+      NAME freesound_community-mouse-squeaks-68287.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 22.5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {612F7361-C2FC-4F7E-BDFF-09413361D247}
+      <SOURCE MP3
+        FILE "freesound_community-mouse-squeaks-68287.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME C:\Users\magda\Documents\GitHub\TheTavernAudio_easy_blank_refactor\Fmod_and_audio_files\21.04\Audio\SFX\Sound_Effects\freesound_community-mouse-squeaks-68287.mp3
+      >
+    >
+    <ITEM
+      POSITION 24.5
+      SNAPOFFS 0
+      LENGTH 2.09586875953114
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {473DE479-E1A3-4E04-A815-BEC55E79F7D3}
+      IID 130
+      NAME freesound_community-mouse-squeaks-68287.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 25.18056642799116
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {50D6ED6D-BA84-4E02-8C07-8AD663CA8C59}
       <SOURCE MP3
         FILE "freesound_community-mouse-squeaks-68287.mp3" 1
       >

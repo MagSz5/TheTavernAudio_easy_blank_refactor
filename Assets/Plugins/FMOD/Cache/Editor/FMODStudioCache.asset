@@ -182,7 +182,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 4000
 --- !u!114 &-5007370671931818175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,7 +271,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 2564011243337346382}
   cacheVersion: 131859
-  cacheTime: 639180509382906291
+  cacheTime: 639180544018591029
   SerializableEventsDict:
   - key: event:/Ambience/Tavern/Amb_tavern_music
     index: 0
@@ -394,10 +394,10 @@ MonoBehaviour:
   Path: Fmod_and_audio_files/21.04/tavern/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639180509382881012
+  lastModified: 639180544018564353
   FileSizes:
   - Name: Desktop
-    Value: 9248192
+    Value: 9357728
   Exists: 1
 --- !u!114 &2036843842807985011
 MonoBehaviour:
@@ -434,7 +434,7 @@ MonoBehaviour:
   Path: Fmod_and_audio_files/21.04/tavern/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639180509382906291
+  lastModified: 639180544018591029
   FileSizes:
   - Name: Desktop
     Value: 1728
